@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:ital@1&family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-bg{
+    background-color: #FF6263;
+}
