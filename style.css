@@ -14,3 +14,37 @@ body{
     height: 100vh;
     width: 100%;
 }
+.sec-2-bg{
+    background-color: #12B0E8;
+}
+.card-size{
+    height: 200px;
+    width: 200px;
+}
+.sec-2-card{
+    position: relative;
+    overflow: hidden;
+    height: 320px;
+}
+.card-button{
+    bottom: 5px;
+    transform: translateY(100px);
+}
+.sec-2-card:hover button{
+    position: absolute;
+    transform: translateY(-5px);
+    transition: transform 0.2s linear;
+}
+.sec-2-card:hover{
+    box-shadow: 5px 5px 20px 10px gray;
+}
+.plan-button{
+    background-color: rgb(241, 234, 234);
+    color: #12B0E8;
+}
+.package-border{
+    border-radius: 30px;
+}
+.package-shadow{
+    box-shadow: 5px 15px 15px lightskyblue;
+}
