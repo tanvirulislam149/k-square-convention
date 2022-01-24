@@ -18,7 +18,7 @@
         <section>
             <nav class="navbar navbar-expand-lg navbar-light sec-2-bg">
                 <div class="container fw-bold">
-                    <a class="navbar-brand fs-3" href="#">K-square</a>
+                    <a class="navbar-brand fs-3" href="#">K-square Convention Hall</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Subscribe</a>
+                                <a class="nav-link" href="#">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -150,8 +150,23 @@
         <!------------------------------------------------ Section-2  -->
         <section>
             <h1 class="text-center fw-bold display-5 py-5">Our Package</h1>
+            <div aria-live="polite" aria-atomic="true" class="position-relative">
+                <div class="toast-container position-absolute top-0 end-0 p-3">
+                    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <i class="fas fa-gift rounded me-2 text-primary"></i>
+                            <strong class="me-auto">Gift</strong>
+                            <small class="text-muted">just now</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            20% off on next booking
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container py-5">
-                <div class="row d-flex align-items-end gx-5">
+                <div class="row d-flex align-items-end gx-5 m-2">
                     <div class="col-12 col-lg-3 bg-white pt-5">
                         <h2 class="fw-bold">$300</h2>
                         <h3 class="fw-bold">Business Fair</h3>
@@ -206,7 +221,7 @@
             </div>
         </section>
         <!---------------------------------------------------- Section-3  -->
-        <section id="order2 px-3">
+        <section class="my-5 px-3">
             <h1 class="text-center fw-bold display-5 py-5">Frequently Asked Questions</h1>
             <div class="container">
                 <div class="row">
@@ -284,14 +299,22 @@
     <!------------------------------------------------------- Footer  -->
     <footer class="bg-black">
         <div class="container">
-            <div class="row d-flex justify-content-between">
-                <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-12 col-md-6 my-3 d-flex align-items-center justify-content-center order-2 order-sm-1">
                     <small class="text-white">© 2020 bike. All rights reserved</small>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h4 class="text-white">GET THE APP</h4>
-                    <a href=""><img class="footer-img" src="images/appstore.jpg" alt=""></a> <br>
-                    <a href=""><img class="footer-img" src="images/playstore.png" alt=""></a>
+                <div class="col-12 col-md-6 my-3 order-1 order-sm-2">
+                    <div class="d-flex flex-column align-items-center">
+                        <h4 class="text-white p-1">GET THE APP</h4>
+                        <a target="_blank"
+                            href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849"><img
+                                class="img-fluid footer-img m-2 border border-white rounded-3" src="images/appstore.jpg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US"><img
+                                class="img-fluid footer-img m-2 border border-white rounded-3"
+                                src="images/playstore.png" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
